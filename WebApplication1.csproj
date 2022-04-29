@@ -74,6 +74,8 @@
     <Content Include="DataPullOffClassTBL.aspx" />
     <Content Include="HtmlPage1.html" />
     <Content Include="HtmlPage2.html" />
+    <Content Include="installedSoftware.txt" />
+    <Content Include="SystemSpecs.txt" />
     <Content Include="Web.config" />
     <Content Include="TeacherInput.aspx" />
   </ItemGroup>

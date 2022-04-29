@@ -1,0 +1,117 @@
+﻿Microsoft Visual Studio Community 2019
+Version 16.11.11
+VisualStudio.16.Release/16.11.11+32228.343
+Microsoft .NET Framework
+Version 4.8.04084
+
+Installed Version: Community
+
+Visual C++ 2019   00435-00000-00000-AA219
+Microsoft Visual C++ 2019
+
+ADL Tools Service Provider   1.0
+This package contains services used by Data Lake tools
+
+ASA Service Provider   1.0
+
+ASP.NET and Web Tools 2019   16.11.106.23128
+ASP.NET and Web Tools 2019
+
+ASP.NET Web Frameworks and Tools 2019   16.11.106.23128
+For additional information, visit https://www.asp.net/
+
+Azure App Service Tools v3.0.0   16.11.106.23128
+Azure App Service Tools v3.0.0
+
+Azure Data Lake Node   1.0
+This package contains the Data Lake integration nodes for Server Explorer.
+
+Azure Data Lake Tools for Visual Studio   2.6.1000.0
+Microsoft Azure Data Lake Tools for Visual Studio
+
+Azure Functions and Web Jobs Tools   16.11.106.23128
+Azure Functions and Web Jobs Tools
+
+Azure Stream Analytics Tools for Visual Studio   2.6.1000.0
+Microsoft Azure Stream Analytics Tools for Visual Studio
+
+C# Tools   3.11.0-4.22108.8+d9bef045c4362fbcab27ef35daec4e95c8ff47e1
+C# components used in the IDE. Depending on your project type and settings, a different version of the compiler may be used.
+
+Common Azure Tools   1.10
+Provides common services for use by Azure Mobile Services and Microsoft Azure Tools.
+
+IntelliCode Extension   1.0
+IntelliCode Visual Studio Extension Detailed Info
+
+Microsoft Azure HDInsight Azure Node   2.6.1000.0
+HDInsight Node under Azure Node
+
+Microsoft Azure Hive Query Language Service   2.6.1000.0
+Language service for Hive query
+
+Microsoft Azure Stream Analytics Language Service   2.6.1000.0
+Language service for Azure Stream Analytics
+
+Microsoft Azure Stream Analytics Node   1.0
+Azure Stream Analytics Node under Azure Node
+
+Microsoft Azure Tools for Visual Studio   2.9
+Support for Azure Cloud Services projects
+
+Microsoft Continuous Delivery Tools for Visual Studio   0.4
+Simplifying the configuration of Azure DevOps pipelines from within the Visual Studio IDE.
+
+Microsoft JVM Debugger   1.0
+Provides support for connecting the Visual Studio debugger to JDWP compatible Java Virtual Machines
+
+Microsoft Library Manager   2.1.113+g422d40002e.RR
+Install client-side libraries easily to any web project
+
+Microsoft MI-Based Debugger   1.0
+Provides support for connecting Visual Studio to MI compatible debuggers
+
+Microsoft Visual C++ Wizards   1.0
+Microsoft Visual C++ Wizards
+
+Microsoft Visual Studio Tools for Containers   1.2
+Develop, run, validate your ASP.NET Core applications in the target environment. F5 your application directly into a container with debugging, or CTRL + F5 to edit & refresh your app without having to rebuild the container.
+
+Microsoft Visual Studio VC Package   1.0
+Microsoft Visual Studio VC Package
+
+NuGet Package Manager   5.11.0
+NuGet Package Manager in Visual Studio. For more information about NuGet, visit https://docs.nuget.org/
+
+ProjectServicesPackage Extension   1.0
+ProjectServicesPackage Visual Studio Extension Detailed Info
+
+Razor (ASP.NET Core)   16.1.0.2122504+13c05c96ea6bdbe550bd88b0bf6cdddf8cde1725
+Provides languages services for ASP.NET Core Razor.
+
+SQL Server Data Tools   16.0.62201.17150
+Microsoft SQL Server Data Tools
+
+ToolWindowHostedEditor   1.0
+Hosting json editor into a tool window
+
+TypeScript Tools   16.0.30526.2002
+TypeScript Tools for Microsoft Visual Studio
+
+Visual Basic Tools   3.11.0-4.22108.8+d9bef045c4362fbcab27ef35daec4e95c8ff47e1
+Visual Basic components used in the IDE. Depending on your project type and settings, a different version of the compiler may be used.
+
+Visual F# Tools   16.11.0-beta.21514.6+b6c2c4f53ea3a08fa603ea93d6d2f808a62a21d1
+Microsoft Visual F# Tools
+
+Visual Studio Code Debug Adapter Host Package   1.0
+Interop layer for hosting Visual Studio Code debug adapters in Visual Studio
+
+Visual Studio Container Tools Extensions   1.0
+View, manage, and diagnose containers within Visual Studio.
+
+Visual Studio Tools for Containers   1.0
+Visual Studio Tools for Containers
+
+Visual Studio Tools for Unity   4.11.4.0
+Visual Studio Tools for Unity

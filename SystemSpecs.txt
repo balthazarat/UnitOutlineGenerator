@@ -1,0 +1,4 @@
+﻿OS Name | Microsoft Windows 10 Pro
+Version 10.0.19044 Build 19044
+System Model | Surface Pro 4
+System Type | x64-based PC
