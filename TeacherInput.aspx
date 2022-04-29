@@ -11,9 +11,19 @@
         <div>
             Name<asp:TextBox ID="txtName" runat="server"></asp:TextBox> 
         <br />
-        <asp:Button ID="btnSubmit" runat="server" onclick="btnSubmit_Click" Text="Insert Data" />  
-        <asp:Label ID="lblMsg" runat="server" Text="Label"></asp:Label>
         </div>
+        <p>
+        <asp:Button ID="btnSubmit" runat="server" onclick="btnSubmit_Click" Text="Insert Data" />  
+        </p>
+        <p>
+        <asp:Label ID="lblMsg" runat="server" Text="Label"></asp:Label>
+        </p>
+        <p>
+            &nbsp;</p>
+        <p>
+            Class search
+            <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
+        </p>
     </form>
 </body>
 </html>
