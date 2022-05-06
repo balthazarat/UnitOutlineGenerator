@@ -1,4 +1,5 @@
 ﻿-- copy table data --
+-- Database1.mdf
 	  -- course --
 	UPDATE CourseTBL
 	SET CourseTBL.Course = OutlineDataTBL.Course
