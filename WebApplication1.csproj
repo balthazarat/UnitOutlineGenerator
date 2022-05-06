@@ -71,37 +71,53 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
-    <Content Include="DataPullOffClassTBL.aspx" />
-    <Content Include="HtmlPage1.html" />
-    <Content Include="HtmlPage2.html" />
-    <Content Include="installedSoftware.txt" />
-    <Content Include="SystemSpecs.txt" />
-    <Content Include="Web.config" />
-    <Content Include="TeacherInput.aspx" />
+    <Content Include="ASPX.CS web forms\DataPullOffClassTBL.aspx" />
+    <Content Include="old HTML\HtmlPage1.html" />
+    <Content Include="old HTML\HtmlPage2.html" />
+    <Content Include="System config and docs\installedSoftware.txt" />
+    <Content Include="System config and docs\SystemSpecs.txt" />
+    <Content Include="System config and docs\Web.config" />
+    <Content Include="ASPX.CS web forms\TeacherInput.aspx" />
+    <Content Include="ASPX.CS web forms\UnitOutlineOutput.aspx" />
+    <Content Include="ASPX.CS web forms\BuildOutline.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataPullOffClassTBL.aspx.cs">
+    <Compile Include="ASPX.CS web forms\DataPullOffClassTBL.aspx.cs">
       <DependentUpon>DataPullOffClassTBL.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DataPullOffClassTBL.aspx.designer.cs">
+    <Compile Include="ASPX.CS web forms\DataPullOffClassTBL.aspx.designer.cs">
       <DependentUpon>DataPullOffClassTBL.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TeacherInput.aspx.cs">
+    <Compile Include="ASPX.CS web forms\TeacherInput.aspx.cs">
       <DependentUpon>TeacherInput.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="TeacherInput.aspx.designer.cs">
+    <Compile Include="ASPX.CS web forms\TeacherInput.aspx.designer.cs">
       <DependentUpon>TeacherInput.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPX.CS web forms\UnitOutlineOutput.aspx.cs">
+      <DependentUpon>UnitOutlineOutput.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPX.CS web forms\UnitOutlineOutput.aspx.designer.cs">
+      <DependentUpon>UnitOutlineOutput.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPX.CS web forms\BuildOutline.aspx.cs">
+      <DependentUpon>BuildOutline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPX.CS web forms\BuildOutline.aspx.designer.cs">
+      <DependentUpon>BuildOutline.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-    <None Include="Web.Debug.config">
+    <None Include="System config and docs\packages.config" />
+    <None Include="System config and docs\Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-    <None Include="Web.Release.config">
+    <None Include="System config and docs\Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
