@@ -56,8 +56,9 @@ namespace WebApplication1
 
                     row = new HtmlTableRow();
                 }
-                con.Close();
+                // con.Close();
             }
+            con.Close();
         }
     }
 }
