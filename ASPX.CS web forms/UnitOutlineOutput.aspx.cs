@@ -14,14 +14,12 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\dbTest.mdf;Integrated Security=True";
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True";
 
             SqlConnection con = new SqlConnection(connectionString);
 
             SqlCommand cmd = new SqlCommand("dbo.unitOut", con);
-
             cmd.CommandType = CommandType.StoredProcedure;
-
             cmd.Parameters.AddWithValue("ID", 1);
 
             con.Open();
