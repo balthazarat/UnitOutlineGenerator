@@ -13,5 +13,14 @@
             <br /><table id="tableContent" border="1" runat="server"></table>
         </div>
     </form>
+    <p>Click the button to print this page.</p>
+
+    <button onclick="printFunction()">Print</button>
+
+    <script>
+      function printFunction() {
+        window.print();
+      }
+    </script>
 </body>
 </html>

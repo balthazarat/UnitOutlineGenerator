@@ -72,6 +72,7 @@
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="ASPX.CS web forms\DataPullOffClassTBL.aspx" />
+    <Content Include="old HTML\printpdfTest.html" />
     <Content Include="old HTML\HtmlPage1.html" />
     <Content Include="old HTML\HtmlPage2.html" />
     <Content Include="System config and docs\installedSoftware.txt" />
