@@ -1,0 +1,56 @@
+this is a unit outline thingy.
+The src is an attribute to which you need to pass the complete path of the image.
+
+You can also add some other attributes:
+
+alt – This attribute is to define an alternative name for the image.
+
+What is the use of the alt tag?
+
+And there are many purposes for using it. This name will be shown to the user if the image is not able to load properly (because of poor internet connection). It is also used by the search engine to identify the image.
+
+width and height – With these attributes, you can provide the dimensions of the image to display.
+1
+	
+<img src="example.jpg" alt="instance" width="500" height="333">
+
+PS: The images displayed above in this post are the example of using the img HTML tag.
+
+Other HTML tags you can use for Web development:
+
+    How to Create Drop Cap using CSS and HTML Code?
+    Simple Code to save HTML page as PDF
+
+Finally…
+
+This is the complete list of all basic HTML tags. And you will be using them in almost every web page development. So, make the practice of using them.
+
+Now a day, there are many online HTML editors available. With the simple drag and drop options, you can create HTML objects without worrying about syntax. But, it is still necessary to know the basic syntax for a better understanding of HTML and web development.
+copy 
+The src is an attribute to which you need to pass the complete path of the image.
+
+You can also add some other attributes:
+
+alt – This attribute is to define an alternative name for the image.
+
+What is the use of the alt tag?
+
+And there are many purposes for using it. This name will be shown to the user if the image is not able to load properly (because of poor internet connection). It is also used by the search engine to identify the image.
+
+width and height – With these attributes, you can provide the dimensions of the image to display.
+1
+	
+<img src="example.jpg" alt="instance" width="500" height="333">
+
+PS: The images displayed above in this post are the example of using the img HTML tag.
+
+Other HTML tags you can use for Web development:
+
+    How to Create Drop Cap using CSS and HTML Code?
+    Simple Code to save HTML page as PDF
+
+Finally…
+
+This is the complete list of all basic HTML tags. And you will be using them in almost every web page development. So, make the practice of using them.
+
+Now a day, there are many online HTML editors available. With the simple drag and drop options, you can create HTML objects without worrying about syntax. But, it is still necessary to know the basic syntax for a better understanding of HTML and web development.
