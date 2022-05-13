@@ -18,9 +18,9 @@ namespace WebApplication1
             SqlConnection con = new SqlConnection(connectionString);
             SqlCommand cmd = new SqlCommand("dbo.unitOut", con);
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("ID", 3); // change ID to change what unit gets generated, this will need to be made dynamic to implement with the search feature. //
+            cmd.Parameters.AddWithValue("ID", Request.QueryString["ID"]); // change ID to change what unit gets generated, this will need to be made dynamic to implement with the search feature. //
             con.Open();
-            SqlDataReader dr = cmd.ExecuteReader();
+            SqlDataReader dr = cmd.ExecuteReader(); 
             while (dr.Read())
             {
                 HtmlTableRow row = new HtmlTableRow();

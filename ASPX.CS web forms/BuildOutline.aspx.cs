@@ -11,7 +11,15 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+        }
+        protected void Button1_Click(object sender, EventArgs e)
 
+        {
+            Response.Redirect("unitOutline.aspx?ID=1");
+        }
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("unitOutline.aspx?ID=3");
         }
     }
 }
