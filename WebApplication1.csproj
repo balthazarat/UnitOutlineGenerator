@@ -71,45 +71,45 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
-    <Content Include="ASPX.CS web forms\DataPullOffClassTBL.aspx" />
+    <Content Include="DataPullOffClassTBL.aspx" />
     <Content Include="old HTML\printpdfTest.html" />
     <Content Include="old HTML\HtmlPage1.html" />
     <Content Include="old HTML\HtmlPage2.html" />
     <Content Include="System config and docs\installedSoftware.txt" />
     <Content Include="System config and docs\SystemSpecs.txt" />
     <Content Include="System config and docs\Web.config" />
-    <Content Include="ASPX.CS web forms\TeacherInput.aspx" />
-    <Content Include="ASPX.CS web forms\UnitOutlineOutput.aspx" />
-    <Content Include="ASPX.CS web forms\BuildOutline.aspx" />
+    <Content Include="TeacherInput.aspx" />
+    <Content Include="UnitOutlineOutput.aspx" />
+    <Content Include="BuildOutline.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ASPX.CS web forms\DataPullOffClassTBL.aspx.cs">
+    <Compile Include="DataPullOffClassTBL.aspx.cs">
       <DependentUpon>DataPullOffClassTBL.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASPX.CS web forms\DataPullOffClassTBL.aspx.designer.cs">
+    <Compile Include="DataPullOffClassTBL.aspx.designer.cs">
       <DependentUpon>DataPullOffClassTBL.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ASPX.CS web forms\TeacherInput.aspx.cs">
+    <Compile Include="TeacherInput.aspx.cs">
       <DependentUpon>TeacherInput.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASPX.CS web forms\TeacherInput.aspx.designer.cs">
+    <Compile Include="TeacherInput.aspx.designer.cs">
       <DependentUpon>TeacherInput.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ASPX.CS web forms\UnitOutlineOutput.aspx.cs">
+    <Compile Include="UnitOutlineOutput.aspx.cs">
       <DependentUpon>UnitOutlineOutput.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASPX.CS web forms\UnitOutlineOutput.aspx.designer.cs">
+    <Compile Include="UnitOutlineOutput.aspx.designer.cs">
       <DependentUpon>UnitOutlineOutput.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ASPX.CS web forms\BuildOutline.aspx.cs">
+    <Compile Include="BuildOutline.aspx.cs">
       <DependentUpon>BuildOutline.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASPX.CS web forms\BuildOutline.aspx.designer.cs">
+    <Compile Include="BuildOutline.aspx.designer.cs">
       <DependentUpon>BuildOutline.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -166,6 +166,10 @@
     </PropertyGroup>
     <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
