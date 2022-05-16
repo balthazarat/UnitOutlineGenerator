@@ -10,6 +10,7 @@
     <form id="form1" runat="server">
         <div>
             <h1><b>Unit Outline</b></h1>
+            <div><p><b>Due Date <label><input type="date" /></label></b></p></div>
             <div contenteditable="true"> <!-- makes the unit outline editable by the user -->
             <br /><table id="tableContent" border="1" runat="server"></table>
             </div>
