@@ -18,10 +18,9 @@
         </div>
     </form>
     
-   
-    <iframe src ="../Hook's law lab report. Kip Minifie.pdf" width="100%" height="20000%" sandbox="allow-scripts"> <!-- change pdf to see if that fixes it -->
-    </iframe> 
-    
+    <embed src="../Hook's law lab report. Kip Minifie.pdf" type="application/pdf" width="100%" height="1000px" />
+    <!--<iframe src ="../Hook's law lab report. Kip Minifie.pdf" width="100%" height="20000%" sandbox="allow-scripts"> <!-- change pdf to see if that fixes it -->
+    <!--</iframe>   -->
     <p><br/>Click the button to print this page.</p>
     <button onclick="printFunction()">Print</button>
 
