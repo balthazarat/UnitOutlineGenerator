@@ -9,6 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <h3><b>Please select course</b></h3>
             <br /><table id="tableContent" border="1" runat="server"></table>
             <asp:Button ID="Button1" runat="server" Text="Unit Outline 1" onclick="Button1_Click"/>
             <asp:Button ID="Button2" runat="server" Text="Unit Outline 3" onclick="Button2_Click"/>
